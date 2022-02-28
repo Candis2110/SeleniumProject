@@ -1,0 +1,14 @@
+
+<suite name="Suite">
+  <test name="Test">
+    <groups>
+    <run>
+    <include name="user"></include>
+    <exclude name="user"></exclude>
+    </run>
+    </groups>
+    <classes>
+      <class name="Test.Demo"/>
+    </classes>
+  </test> 
+</suite> 
